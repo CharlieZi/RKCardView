@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0AD6FE1AF284BB00C686F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0AD6FD1AF284BB00C686F0 /* AppDelegate.swift */; };
+		CB0AD7011AF284BB00C686F0 /* RKCardView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB0AD6FF1AF284BB00C686F0 /* RKCardView.xcdatamodeld */; };
+		CB0AD7031AF284BB00C686F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0AD7021AF284BB00C686F0 /* ViewController.swift */; };
+		CB0AD7061AF284BB00C686F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0AD7041AF284BB00C686F0 /* Main.storyboard */; };
+		CB0AD7081AF284BB00C686F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0AD7071AF284BB00C686F0 /* Images.xcassets */; };
+		CB0AD70B1AF284BB00C686F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB0AD7091AF284BB00C686F0 /* LaunchScreen.xib */; };
+		CB0AD7171AF284BC00C686F0 /* RKCardViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0AD7161AF284BC00C686F0 /* RKCardViewTests.swift */; };
+		CB0AD7231AF2861A00C686F0 /* RKCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0AD7221AF2861A00C686F0 /* RKCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB0AD7111AF284BC00C686F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB0AD6F01AF284BB00C686F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB0AD6F71AF284BB00C686F0;
+			remoteInfo = RKCardView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB0AD6F81AF284BB00C686F0 /* RKCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0AD6FC1AF284BB00C686F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0AD6FD1AF284BB00C686F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB0AD7001AF284BB00C686F0 /* RKCardView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RKCardView.xcdatamodel; sourceTree = "<group>"; };
+		CB0AD7021AF284BB00C686F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB0AD7051AF284BB00C686F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB0AD7071AF284BB00C686F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB0AD70A1AF284BB00C686F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB0AD7101AF284BC00C686F0 /* RKCardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKCardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0AD7151AF284BC00C686F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0AD7161AF284BC00C686F0 /* RKCardViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKCardViewTests.swift; sourceTree = "<group>"; };
+		CB0AD7221AF2861A00C686F0 /* RKCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB0AD6F51AF284BB00C686F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0AD70D1AF284BC00C686F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB0AD6EF1AF284BB00C686F0 = {
+			isa = PBXGroup;
+			children = (
+				CB0AD6FA1AF284BB00C686F0 /* RKCardView */,
+				CB0AD7131AF284BC00C686F0 /* RKCardViewTests */,
+				CB0AD6F91AF284BB00C686F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB0AD6F91AF284BB00C686F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB0AD6F81AF284BB00C686F0 /* RKCardView.app */,
+				CB0AD7101AF284BC00C686F0 /* RKCardViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0AD6FA1AF284BB00C686F0 /* RKCardView */ = {
+			isa = PBXGroup;
+			children = (
+				CB0AD7221AF2861A00C686F0 /* RKCardView.swift */,
+				CB0AD6FD1AF284BB00C686F0 /* AppDelegate.swift */,
+				CB0AD7021AF284BB00C686F0 /* ViewController.swift */,
+				CB0AD7041AF284BB00C686F0 /* Main.storyboard */,
+				CB0AD7071AF284BB00C686F0 /* Images.xcassets */,
+				CB0AD7091AF284BB00C686F0 /* LaunchScreen.xib */,
+				CB0AD6FF1AF284BB00C686F0 /* RKCardView.xcdatamodeld */,
+				CB0AD6FB1AF284BB00C686F0 /* Supporting Files */,
+			);
+			path = RKCardView;
+			sourceTree = "<group>";
+		};
+		CB0AD6FB1AF284BB00C686F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0AD6FC1AF284BB00C686F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB0AD7131AF284BC00C686F0 /* RKCardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB0AD7161AF284BC00C686F0 /* RKCardViewTests.swift */,
+				CB0AD7141AF284BC00C686F0 /* Supporting Files */,
+			);
+			path = RKCardViewTests;
+			sourceTree = "<group>";
+		};
+		CB0AD7141AF284BC00C686F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0AD7151AF284BC00C686F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB0AD6F71AF284BB00C686F0 /* RKCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0AD71A1AF284BC00C686F0 /* Build configuration list for PBXNativeTarget "RKCardView" */;
+			buildPhases = (
+				CB0AD6F41AF284BB00C686F0 /* Sources */,
+				CB0AD6F51AF284BB00C686F0 /* Frameworks */,
+				CB0AD6F61AF284BB00C686F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RKCardView;
+			productName = RKCardView;
+			productReference = CB0AD6F81AF284BB00C686F0 /* RKCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB0AD70F1AF284BC00C686F0 /* RKCardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB0AD71D1AF284BC00C686F0 /* Build configuration list for PBXNativeTarget "RKCardViewTests" */;
+			buildPhases = (
+				CB0AD70C1AF284BC00C686F0 /* Sources */,
+				CB0AD70D1AF284BC00C686F0 /* Frameworks */,
+				CB0AD70E1AF284BC00C686F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB0AD7121AF284BC00C686F0 /* PBXTargetDependency */,
+			);
+			name = RKCardViewTests;
+			productName = RKCardViewTests;
+			productReference = CB0AD7101AF284BC00C686F0 /* RKCardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB0AD6F01AF284BB00C686F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = HuCharlie;
+				TargetAttributes = {
+					CB0AD6F71AF284BB00C686F0 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CB0AD70F1AF284BC00C686F0 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CB0AD6F71AF284BB00C686F0;
+					};
+				};
+			};
+			buildConfigurationList = CB0AD6F31AF284BB00C686F0 /* Build configuration list for PBXProject "RKCardView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB0AD6EF1AF284BB00C686F0;
+			productRefGroup = CB0AD6F91AF284BB00C686F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB0AD6F71AF284BB00C686F0 /* RKCardView */,
+				CB0AD70F1AF284BC00C686F0 /* RKCardViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB0AD6F61AF284BB00C686F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0AD7061AF284BB00C686F0 /* Main.storyboard in Resources */,
+				CB0AD70B1AF284BB00C686F0 /* LaunchScreen.xib in Resources */,
+				CB0AD7081AF284BB00C686F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0AD70E1AF284BC00C686F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB0AD6F41AF284BB00C686F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0AD7031AF284BB00C686F0 /* ViewController.swift in Sources */,
+				CB0AD7231AF2861A00C686F0 /* RKCardView.swift in Sources */,
+				CB0AD6FE1AF284BB00C686F0 /* AppDelegate.swift in Sources */,
+				CB0AD7011AF284BB00C686F0 /* RKCardView.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB0AD70C1AF284BC00C686F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB0AD7171AF284BC00C686F0 /* RKCardViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB0AD7121AF284BC00C686F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB0AD6F71AF284BB00C686F0 /* RKCardView */;
+			targetProxy = CB0AD7111AF284BC00C686F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB0AD7041AF284BB00C686F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0AD7051AF284BB00C686F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB0AD7091AF284BB00C686F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB0AD70A1AF284BB00C686F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB0AD7181AF284BC00C686F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB0AD7191AF284BC00C686F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB0AD71B1AF284BC00C686F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RKCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB0AD71C1AF284BC00C686F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RKCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB0AD71E1AF284BC00C686F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RKCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKCardView.app/RKCardView";
+			};
+			name = Debug;
+		};
+		CB0AD71F1AF284BC00C686F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RKCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RKCardView.app/RKCardView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB0AD6F31AF284BB00C686F0 /* Build configuration list for PBXProject "RKCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0AD7181AF284BC00C686F0 /* Debug */,
+				CB0AD7191AF284BC00C686F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0AD71A1AF284BC00C686F0 /* Build configuration list for PBXNativeTarget "RKCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0AD71B1AF284BC00C686F0 /* Debug */,
+				CB0AD71C1AF284BC00C686F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB0AD71D1AF284BC00C686F0 /* Build configuration list for PBXNativeTarget "RKCardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB0AD71E1AF284BC00C686F0 /* Debug */,
+				CB0AD71F1AF284BC00C686F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB0AD6FF1AF284BB00C686F0 /* RKCardView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB0AD7001AF284BB00C686F0 /* RKCardView.xcdatamodel */,
+			);
+			currentVersion = CB0AD7001AF284BB00C686F0 /* RKCardView.xcdatamodel */;
+			path = RKCardView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB0AD6F01AF284BB00C686F0 /* Project object */;
+}
